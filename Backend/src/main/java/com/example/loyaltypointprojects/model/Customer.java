@@ -1,6 +1,8 @@
 package com.example.loyaltypointprojects.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.Id;
@@ -11,6 +13,8 @@ import javax.persistence.GenerationType;
 
 @Data
 @NoArgsConstructor
+@AllArgsConstructor
+@Builder
 @JsonIgnoreProperties(ignoreUnknown = true)
 @Document(collection = "customer")
 public class Customer {
@@ -21,4 +25,5 @@ public class Customer {
     private String name;
     private String email;
     private Integer points;
+
 }
