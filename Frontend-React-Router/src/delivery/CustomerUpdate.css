@@ -1,0 +1,32 @@
+.Button-Update {
+  background-color: #078d3a;
+  color: #ffffff;
+  padding: 6px;
+  border: #078d3a;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 200px;
+  height: 50px;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.updateContainer {
+    border-color: orangered;
+    border-width: 2px;
+    padding-top: 20px;
+    padding-left: 250px;
+    border-radius: "30px";
+}
+
+.UpdateCustomerContainer {
+    width: 70%;
+    margin-left: 15%;
+    border-color: rgb(0, 0, 0);
+    height: 500px;
+}
+
+.updateForm {
+    padding-left: 20%;
+}
